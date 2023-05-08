@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Breakfast } from './Components/Breakfast'
+import { Hotel } from './Components/Hotel'
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <Breakfast />
+      <Hotel />
     </div>
   );
 }
